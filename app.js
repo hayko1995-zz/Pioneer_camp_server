@@ -1,11 +1,18 @@
 var createError = require('http-errors');
 var express = require('express');
+var sqlite3 = require('sqlite3').verbose();
+var bodyParser = require("body-parser"); 
+var db = new sqlite3.Database('mydb.db');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+db.serialize(function () {
+  db.run("CREATE TABLE if not exists user (room TEXT, game TEXT)");
+});
+
 
 var app = express();
 
