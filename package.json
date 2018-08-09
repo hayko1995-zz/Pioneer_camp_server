@@ -6,12 +6,17 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-datetimepicker": "0.0.7",
+    "bootstrap-datetimepicker-npm": "^4.17.37-npm",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47",
     "eslint": "^5.0.1",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
-    "morgan": "~1.9.0"
+    "morgan": "~1.9.0",
+    "sqlite3": "^4.0.2"
   }
 }
