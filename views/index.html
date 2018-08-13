@@ -5,24 +5,15 @@
     <title></title>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 <!-- Latest compiled and minified JavaScript -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
-
-
-  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
-
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/moment-with-locales.min.js"></script>
-  
-  <script src="js/bootstrap-datetimepicker.min.js"></script>
-
+ 
     <script type="text/javascript">
         $(document).ready(function() {
             $('#btnAdd').click(function() {
@@ -76,28 +67,7 @@
                 <option value="7">7</option>
                 <option value="8">8</option>
               </select>
-        Time: <div class="container"  name="name1_1" id="id1_1">
-            <div class="row">
-                <div class='col-sm-2'>
-                    <div class="form-group">
-                        <div class='input-group date' id='datetimepicker3'>
-                            <input type='text' class="form-control" />
-                            <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-time"></span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <script type="text/javascript">
-                    $(function () {
-                        $('#datetimepicker3').datetimepicker({
-                            format: 'HH:mm'
-                        });
-                    });
-                </script>
-            </div>
-        </div>
-          
+        Time: <input type="time" name="name1_1" id="id1_1" />
 doing: <input type="text" name="name2_1" id="id2_1" />
     </div>
  
